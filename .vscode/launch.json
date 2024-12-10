@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "Train.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/train.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYDEVD_CONTAINER_RANDOM_ACCESS_MAX_ITEMS": "1000000",
+            },
+        },
+        {
+            "name": "view_results.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/bin/view_openai_results.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYDEVD_CONTAINER_RANDOM_ACCESS_MAX_ITEMS": "1000000",
+            },
+        },
+    ]
+}

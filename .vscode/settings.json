@@ -1,0 +1,17 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "recommendations": [
+        "ms-python.black-formatter"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:food-detection-2}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}
